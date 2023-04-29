@@ -1,0 +1,60 @@
+.jumbotron-fluid{
+    background-image: url(assets/beach.jpg); 
+    height: 550px; background-size: cover; 
+    background-position: bottom;
+}
+.specOff{
+    background-image: url(assets/faro.jpg); 
+    height: 550px; background-size: cover; 
+    background-position: bottom;
+}
+.welcSumm{
+    background-image: url(assets/mountain.jpg); 
+    height: 550px; background-size: cover; 
+    background-position: bottom;
+}
+
+.jumbotron-fluid > .container > *{
+    color: #fff;
+    font-weight: 400;
+}
+
+/* offerta del giorno */
+.orizzCard p{
+    font-size: 1.3rem;
+}
+@media screen and (min-width: 576px) {
+    .orizzCard p:last-child {
+      font-size: 1.1rem;
+      text-align:justify;
+    }
+  }
+.orizzCardImg{
+    background-image: url(assets/camel.jpg); 
+    background-position: center; 
+    background-size: cover;
+}
+
+
+/* typography breakpoints */
+.jumbotron-fluid > .container > h1 {
+    font-size: 2.9rem;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .jumbotron-fluid > .container > h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 756px) {
+    .jumbotron-fluid > .container > h1 {
+      font-size: 4.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 972px) {
+    .jumbotron-fluid > .container > h1 {
+      font-size: 5rem;
+    }
+  }
