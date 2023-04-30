@@ -1,6 +1,13 @@
+#bodybackround {
+  background-image: url(assets/bodybg2.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .jumbotron-fluid{
     background-image: url(assets/beach.jpg); 
-    height: 550px; background-size: cover; 
+    height: 100%; background-size: cover; 
     background-position: bottom;
 }
 .specOff{
@@ -67,7 +74,7 @@
     background-color: #acb5a1;
   }
   .g-custom-text {
-    color: #4b46d9;
+    color: white;
   } ;
   
   
