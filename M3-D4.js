@@ -1,25 +1,14 @@
-/*let button = document.querySelector("button");
-let offerte = document.getElementById("offerte")
-let div = document.createElement("div")
-let nuoveOfferte = ` <div class="row d-none d-md-flex" id="offerte" style="height: 400px">
-<div class="col-8 rounded-3 orizzCardImg">
-    <!-- <img src="assets/camel.jpg" class="img-fluid rounded-0" alt="..."> -->
-</div>
-<div class="col-4 orizzCard">
-    <h1>Marocco</h1>
-    <p>18 Giugno - 25 Giungo</p>
-    <h3>1.100 $</h3>
-    <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis hic molestiae officia ea
-        libero veniam maiores ab non animi doloribus, doloremque harum molestias velit, eius, porro sint
-        minus tempore dolorum!
-    </p>
-    <button type="button" class="btn btn-primary">Next</button>
-        
-</div>
-</div>`
+let card = document.getElementsByClassName("card")
+let title = document.getElementById("title")
 
-button.addEventListener("click", function(){
-    offerte.remove();
-    div.innerHTML = nuoveOfferte;
-    console.log(div);
-})*/
+/*for(i=0; i<card.length; i++) {
+   let newTitle = "Le offerte della settimana : " + card.lenght;
+   console.log(newTitle);
+}
+*/
+if (card.length > 0) {
+    const newTitle = `Le offerte della settimana sono: ${card.length}`;/*${card.length} viene utilizzato per inserire all'interno della stringa Le offerte della settimana: ".."" il valore della proprietà length*/
+    title.innerText = newTitle;
+  } else {
+    console.log('Nessuna offerta trovata.');
+  }
