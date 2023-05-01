@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px){
+    #title-offerta{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #footer_lastminute_mobile{
+        position: fixed;
+        bottom: 0;
+    }
+}
